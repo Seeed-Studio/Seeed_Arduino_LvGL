@@ -1,4 +1,4 @@
-# Seeed_Arduino_lvgl
+# Seeed_Arduino_LvGL
 
 ### Introduction
   This library is adapted to LittlevGL(v6.1.1),which depends on Seeed_Arduino_LCD, so that users can build LittlevGL project in Arduino IDE.
@@ -17,9 +17,9 @@
 
   - Follow the instructions to drive the LCD screen
 
-  - Install [Seeed_Arduino_lvgl](https://github.com/Seeed-studio/Seeed_Arduion_lvgl)
+  - Install [Seeed_Arduino_LvGL](https://github.com/Seeed-studio/Seeed_Arduion_LvGL)
 
-    `git clone https://github.com/Seeed-Studio/Seeed_Arduion_lvgl` 
+    `git clone https://github.com/Seeed-Studio/Seeed_Arduion_LvGL` 
 
   - Run the example usage
 
