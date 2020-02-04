@@ -1,4 +1,4 @@
-# Seeed_Arduino_LvGL
+# Seeed_Arduino_LvGL  [![Build Status](https://travis-ci.com/Seeed-Studio/Seeed_Arduino_LvGL.svg?branch=master)](https://travis-ci.com/Seeed-Studio/Seeed_Arduino_LvGL)
 
 ### Introduction
   This library is adapted to LittlevGL(v6.1.1),which depends on Seeed_Arduino_LCD, so that users can build LittlevGL project in Arduino IDE.
