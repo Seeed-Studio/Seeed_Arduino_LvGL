@@ -1,7 +1,7 @@
 # Seeed_Arduino_LvGL  [![Build Status](https://travis-ci.com/Seeed-Studio/Seeed_Arduino_LvGL.svg?branch=master)](https://travis-ci.com/Seeed-Studio/Seeed_Arduino_LvGL)
 
 ### Introduction
-  This library is adapted to LittlevGL(v6.1.1),which depends on Seeed_Arduino_LCD, so that users can build LittlevGL project in Arduino IDE.
+  This library is adapted to LittlevGL(v7.0.2),which depends on Seeed_Arduino_LCD, so that users can build LittlevGL project in Arduino IDE.
 - [LittlevGL](https://littlevgl.com/)
 
   LittlevGL is a free and open-source graphics library providing everything you need to create embedded GUI with easy-to-use graphical elements, beautiful visual effects and low memory footprint.
