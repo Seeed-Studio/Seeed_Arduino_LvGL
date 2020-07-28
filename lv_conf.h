@@ -254,10 +254,10 @@ typedef void * lv_indev_drv_user_data_t;            /*Type of user data in the i
 
 /* Robot fonts with bpp = 4
  * https://fonts.google.com/specimen/Roboto  */
-#define LV_FONT_ROBOTO_12    0
+#define LV_FONT_ROBOTO_12    1
 #define LV_FONT_ROBOTO_16    1
-#define LV_FONT_ROBOTO_22    0
-#define LV_FONT_ROBOTO_28    0
+#define LV_FONT_ROBOTO_22    1
+#define LV_FONT_ROBOTO_28    1
 
 /*Pixel perfect monospace font
  * http://pelulamu.net/unscii/ */
@@ -480,9 +480,6 @@ typedef void * lv_obj_user_data_t;
 #endif
 
 /*--END OF LV_CONF_H--*/
-
-/*Be sure every define has a default value*/
-#include "src/lv_conf_checker.h"
 
 #endif /*LV_CONF_H*/
 

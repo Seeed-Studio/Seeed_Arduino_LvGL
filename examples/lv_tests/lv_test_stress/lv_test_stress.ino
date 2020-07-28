@@ -1,6 +1,6 @@
 #include <lvgl.h>
 #include <TFT_eSPI.h>
-#include "lv_test_stress.h"
+#include "lv_demo_stress.h"
 
 #define LVGL_TICK_PERIOD 5
 
@@ -89,7 +89,7 @@ void setup() {
   indev_drv.read_cb = read_encoder;
   lv_indev_drv_register(&indev_drv);
   /*stress test*/
-  lv_test_stress_1();
+  lv_demo_stress();
 }
 
 
