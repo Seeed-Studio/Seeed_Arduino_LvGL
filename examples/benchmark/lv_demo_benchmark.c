@@ -688,15 +688,15 @@ static void scene_next_task_cb(lv_task_t * task)
 
     if(scenes[scene_act].create_cb) {
         lv_label_set_text_fmt(title, "%d/%d: %s%s", scene_act * 2 + (opa_mode ? 1 : 0), (sizeof(scenes) / sizeof(scene_dsc_t) * 2) - 2,  scenes[scene_act].name, opa_mode ? " + opa" : "");
-        if(opa_mode) {
-            lv_label_set_text_fmt(subtitle, "Result of \"%s\": %d FPS", scenes[scene_act].name, scenes[scene_act].fps_normal);
-        } else {
-            if(scene_act > 0) {
-                lv_label_set_text_fmt(subtitle, "Result of \"%s + opa\": %d FPS", scenes[scene_act - 1].name, scenes[scene_act - 1].fps_opa);
-            } else {
-                lv_label_set_text(subtitle, "");
-            }
-        }
+        // if(opa_mode) {
+        //     lv_label_set_text_fmt(subtitle, "Result of \"%s\": %d FPS", scenes[scene_act].name, scenes[scene_act].fps_normal);
+        // } else {
+        //     if(scene_act > 0) {
+        //         lv_label_set_text_fmt(subtitle, "Result of \"%s + opa\": %d FPS", scenes[scene_act - 1].name, scenes[scene_act - 1].fps_opa);
+        //     } else {
+        //         lv_label_set_text(subtitle, "");
+        //     }
+        // }
 
         rnd_reset();
         scenes[scene_act].create_cb();
